@@ -1,7 +1,7 @@
 // author by removef
 // https://removeif.github.io/
 $(function () { //获取处理友链数据
-    $.getJSON("https://raw.githubusercontent.com/JohnsonRan/Friends/main/Friends.json", function (data) {
+    $.getJSON("https://friends-xi.vercel.app/Friends.json", function (data) {
 
         // var data0 = data[0];
         $('.links-content').html("");
