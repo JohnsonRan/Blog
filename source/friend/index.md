@@ -17,5 +17,5 @@ date: 2019-09-09 18:52:09
     LOGO:https://q1.qlogo.cn/g?b=qq&nk=3546870850&s=640
 
 
-<script type="text/javascript" defer src="/js/friend.js"></script>
+<script type="text/javascript" defer src="Blog/js/friend.js"></script>
 <div class="links-content">加载中，稍等几秒...</div>
