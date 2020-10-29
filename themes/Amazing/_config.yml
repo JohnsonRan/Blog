@@ -1,7 +1,7 @@
 # Version of the configuration file
 version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
-variant: cyberpunk
+variant: default
 # Path or URL to the website's logo
 logo: https://johnsonran.cn/favicon.ico #/img/logo.svg
 # Page metadata configurations
@@ -73,8 +73,8 @@ head:
 navbar:
     # Naviagtion menu items
     menu:
-        Home: /
-        Archives: /archives
+        主页: /
+        归档: /archives
         Categories: /categories
         Tags: /tags
         About: /about
