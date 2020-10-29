@@ -258,7 +258,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Typecho版博客: 'https://johnsonran.cn'
+            Ran's Blog | 旋律的博客: 'https://johnsonran.cn'
     # Latest comment widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar

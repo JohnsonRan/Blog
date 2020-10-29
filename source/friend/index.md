@@ -1,5 +1,5 @@
 ---
-thumbnail: http://wx2.sinaimg.cn/large/b5d1b710ly1g6tkoq1a10j212w0k17wh.jpg
+thumbnail: https://img.johnsonran.cn/Main/%E3%82%8C%E3%82%93%E3%81%92.png
 date: 2019-09-09 18:52:09
 ---
 <div class="friend-title-item"><br>申请友链须知<br><br><hr></div>
@@ -11,10 +11,10 @@ date: 2019-09-09 18:52:09
 - 会定期清理很久很久不更新的、不符合要求的友链，不再另行通知。
 - 本站不存储友链图片，如果友链图片换了无法更新。图片裂了的会替换成默认图，需要更换的请留言告知。
 - 本站友链信息如下，申请友链前请先添加本站信息：
-    网站图标：https://removeif.github.io/images/avatar.jpg
-    网站名称：辣椒の酱
-    网站地址：https://removeif.github.io
-    网站简介：后端开发，技术分享
+    站点：Ran's Blog | 旋律的博客
+    链接：https://johnsonran.cn
+    简介：我永远喜欢莲华
+    LOGO:https://q1.qlogo.cn/g?b=qq&nk=3546870850&s=640
 
 
 <script type="text/javascript" defer src="/js/friend.js"></script>
