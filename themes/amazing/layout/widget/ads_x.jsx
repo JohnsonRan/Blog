@@ -13,7 +13,7 @@ class AdSenseX extends Component {
                             </h3>
                         </div>
                         <br/> */}
-                    <script async src="https://pagead2.googlesyndication.com/pageadBlog/js/adsbygoogle.js"></script>
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <ins class="adsbygoogle"
                          style="display:block; text-align:center;"
                          data-ad-layout="in-article"

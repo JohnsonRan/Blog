@@ -106,7 +106,7 @@ comment:
 + 目前的最新评论有1分钟的本地缓存，评论后可能1分钟后才能看见最新评论，出于性能优化，每次请求接口处理还是挺耗时，comment-issue-data.js中可以自己去掉。  
 
 #### 2.友链数据文件：
-文件路径：themes/amazing/sourceBlog/js/friend.js  
+文件路径：themes/amazing/source/js/friend.js  
 相应格式增加自己需要的数据。  
 友链数据中，"valid": 0 代表异常网站，"valid": 1或者不填此字段代表正常网站，可以自己配置；"stopTime": "2019.09.09"代表异常时访问的时间
 ```text
@@ -218,7 +218,7 @@ wrong_hash_message: 不好意思，信息无法验证！
 ![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200310182707.png)
 ```js
 <script>
-    $.getScript("Blog/js/gitalk_self.min.js", function () {
+    $.getScript("/js/gitalk_self.min.js", function () {
         var gitalk = new Gitalk({
             clientID: '46a9f3481b46ea0129d8',
             clientSecret: '79c7c9cb847e141757d7864453bcbf89f0655b24',

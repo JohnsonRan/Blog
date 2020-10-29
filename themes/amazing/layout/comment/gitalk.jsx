@@ -83,7 +83,7 @@ module.exports = Gitalk.Cacheable = cacheComponent(Gitalk, 'comment.gitalk', pro
         flipMoveOptions: comment.flip_move_options,
         enableHotKey: comment.enable_hotkey,
         cssUrl: helper.cdn('gitalk', '1.6.0', 'dist/gitalk.css'),
-        jsUrl: my_cdn(url_for('Blog/js/gitalk.min.js')),
+        jsUrl: my_cdn(url_for('/js/gitalk.min.js')),
         isLocked: !canComments,
     };
 });

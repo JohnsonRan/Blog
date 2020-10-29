@@ -78,7 +78,7 @@ module.exports = class extends Component {
         document.addEventListener('pjax:complete', function () {
             $(".section").css({opacity:1});
             if(${hasComment}){
-                $.getScript('${my_cdn(url_for('Blog/js/comment-issue-data.js'))}',function(){loadIssueData('${appId}','${appKey}','${userName}','${userRepo}',${isValine});});
+                $.getScript('${my_cdn(url_for('/js/comment-issue-data.js'))}',function(){loadIssueData('${appId}','${appKey}','${userName}','${userRepo}',${isValine});});
             }
             if(${isMath}){
                 loadMathJax();
@@ -115,7 +115,7 @@ module.exports = class extends Component {
             <Head site={site} config={config} helper={helper} page={page} />
             <body className={`is-${columnCount}-column has-navbar-fixed-top`}>
                 <Navbar config={config} helper={helper} page={page} />
-                <script type="text/javascript" src={my_cdn(url_for('Blog/js/theme-setting.js'))}></script>
+                <script type="text/javascript" src={my_cdn(url_for('/js/theme-setting.js'))}></script>
                 <section class="section">
                     <div class="container">
                         <div class="columns">
