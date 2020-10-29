@@ -78,12 +78,10 @@ navbar:
         Categories: /categories
         Tags: /tags
         About: /about
-        Album: /album
         Friend: /friend
         Message: /message
         Self-talking: /self-talking
         Music: /music
-        Media: /media
     # Links to be shown on the right of the navigation bar
     links:
         Join Gitter:
@@ -144,11 +142,11 @@ search:
 comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: removeif         # (required) GitHub user name
+    owner: JohnsonRan         # (required) GitHub user name
     repo: blog_comment          # (required) GitHub repository name
-    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
-    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
-    admin: ['removeif']
+    client_id: 1a32f38e6a509e34559a     # (required) OAuth application client id
+    client_secret: b31e8851a294c19edab045f46f8ebe5b8d2308a3 # (required) OAuth application client secret
+    admin: ['JohnsonRan']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
@@ -260,8 +258,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+            Typecho版博客: 'https://johnsonran.cn'
     # Latest comment widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -305,7 +302,7 @@ widgets:
 # AdSense client ID
 adsense_client_id: #'ca-pub-6343805421927634'
 # AdSense AD unit ID
-adsense_slot_id: '5134765588'
+adsense_slot_id: ''
 # article head ad
 article_head_has_ad: true
 # comment head ad
