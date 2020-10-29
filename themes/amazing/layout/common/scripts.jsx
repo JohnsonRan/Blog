@@ -30,7 +30,7 @@ module.exports = class extends Component {
             isValine = true;
         }
 
-        const js = `$.getScript('${my_cdn(url_for('/js/comment-issue-data.js'))}',function(){loadIssueData('${appId}','${appKey}','${userName}','${userRepo}',${isValine});})`;
+        const js = `$.getScript('${my_cdn(url_for('Blog/js/comment-issue-data.js'))}',function(){loadIssueData('${appId}','${appKey}','${userName}','${userRepo}',${isValine});})`;
         let externalLink;
         if (typeof external_link === 'boolean') {
             externalLink = { enable: external_link, exclude: [] };
@@ -66,10 +66,10 @@ module.exports = class extends Component {
             {clipboard && <script src={cdn('clipboard', '2.0.4', 'dist/clipboard.min.js')} async></script>}
             <script dangerouslySetInnerHTML={{ __html: `moment.locale("${language}");` }}></script>
             <script dangerouslySetInnerHTML={{ __html: embeddedConfig }}></script>
-            <script src={my_cdn(url_for('/js/column.js'))}></script>
+            <script src={my_cdn(url_for('Blog/js/column.js'))}></script>
             <Plugins site={site} config={config} page={page} helper={helper} head={false} />
-            <script src={my_cdn(url_for('/js/main.js'))} defer></script>
-            {(hasHotRecommend || !hasBanner) ? null : <script src={my_cdn(url_for('/js/banner.js'))}></script>}
+            <script src={my_cdn(url_for('Blog/js/main.js'))} defer></script>
+            {(hasHotRecommend || !hasBanner) ? null : <script src={my_cdn(url_for('Blog/js/banner.js'))}></script>}
             {hasComment ? <script dangerouslySetInnerHTML={{ __html: js }}></script> : null}
         </Fragment>;
     }

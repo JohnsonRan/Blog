@@ -167,7 +167,7 @@ Toc.Cacheable = cacheComponent(Toc, 'widget.toc', (props) => {
         title: helper._p('widget.catalogue', Infinity),
         showIndex: index !== false,
         content: encrypt ? origin : content,
-        jsUrl: helper.url_for('/js/toc.js'),
+        jsUrl: helper.url_for('Blog/js/toc.js'),
     };
 });
 

@@ -60,6 +60,6 @@ function play() {
 <div class="time-axis-main">
 	<ul class="time-axis"></ul>
 </div>
-<script src="/js/about-me.js"></script>
+<script src="Blog/js/about-me.js"></script>
 <br>
 <br>
