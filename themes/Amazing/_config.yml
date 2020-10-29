@@ -1,34 +1,34 @@
 # Version of the configuration file
 version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
-variant: default
+variant: cyberpunk
 # Path or URL to the website's logo
-logo: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png #/img/logo.svg
+logo: https://johnsonran.cn/favicon.ico #/img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/favicon.png #/img/favicon.svg
+    favicon: https://johnsonran.cn/favicon.ico #/img/favicon.svg
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title: Ran's Blog | 旋律的博客
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: https://removeif.github.io/
+        url: https://johnsonran.github.io/
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/avatar.png
+        image: https://q1.qlogo.cn/g?b=qq&nk=3546870850&s=640
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 辣椒の酱
+        site_name: Ran's Blog | 旋律的博客
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author: Ran Johnson
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: 
