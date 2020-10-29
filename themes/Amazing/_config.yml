@@ -73,8 +73,8 @@ head:
 navbar:
     # Naviagtion menu items
     menu:
-        主页: /
-        归档: /archives
+        Home: /
+        Archives: /archives
         Categories: /categories
         Tags: /tags
         About: /about
