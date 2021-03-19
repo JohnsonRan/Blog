@@ -2,6 +2,7 @@ title: 使用JS屏蔽F12/右键/复制与查看源代码
 categories: 干货
 tags: [Javascript,网页]
 date: 2020-09-07 16:31:00
+toc: true
 ---
 - 禁止F12
 ```javascript

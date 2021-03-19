@@ -2,6 +2,7 @@ title: 如何在 Windows 中备份和还原注册表
 categories: 教程
 tags: [Windows]
 date: 2020-06-30 20:34:00
+toc: true
 ---
 ##手动备份注册表
 1. 按下`Win`+`R`键，键入**regedit**，然后按 enter 键。如果提示您输入管理员密码或进行确认，请键入密码或提供确认。

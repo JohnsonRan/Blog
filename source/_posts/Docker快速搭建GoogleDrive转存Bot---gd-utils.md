@@ -2,6 +2,7 @@ title: Docker快速搭建GoogleDrive转存Bot - gd-utils
 categories: 教程
 tags: [Docker,GoogleDrive]
 date: 2020-07-21 18:36:00
+toc: true
 ---
 >看到有人说搭建不成功，我觉得非常简单，
 安装版编译时我两台1G的小鸡的卡着不动，还是大鸡编译好小鸡用好,如果只能搭建bot推荐使用docker版  

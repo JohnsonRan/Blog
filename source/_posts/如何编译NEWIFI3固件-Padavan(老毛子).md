@@ -2,6 +2,7 @@ title: 如何编译NEWIFI3固件-Padavan(老毛子)
 categories: 教程
 tags: [教程,编译]
 date: 2020-04-21 14:27:00
+toc: true
 ---
 编译前的准备工作
 ===

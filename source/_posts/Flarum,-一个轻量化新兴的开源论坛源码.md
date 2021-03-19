@@ -2,6 +2,7 @@ title: Flarum, 一个轻量化新兴的开源论坛源码
 categories: 教程
 tags: [源码]
 date: 2020-04-21 14:29:00
+toc: true
 ---
 前言
 ===

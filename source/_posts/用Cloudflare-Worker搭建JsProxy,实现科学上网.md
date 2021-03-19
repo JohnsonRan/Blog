@@ -2,6 +2,7 @@ title: 用Cloudflare Worker搭建JsProxy,实现科学上网
 categories: 教程
 tags: [CloudFlare]
 date: 2020-06-30 14:20:00
+toc: true
 ---
 这里感谢一下Github上的这位大佬开源链接
 ```html

@@ -2,6 +2,7 @@ title: 网络性能测试工具IPerf3的使用
 categories: 教程
 tags: [测试工具]
 date: 2020-04-21 14:29:00
+toc: true
 ---
 >iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters. This is a new implementation that shares no code with the original iPerf and also is not backwards compatible. iPerf was orginally developed by [NLANR/DAST](https://iperf.fr/contact.php#authors). iPerf3 is principally developed by [ESnet](https://www.es.net/) / [Lawrence Berkeley National Laboratory](https://www.lbl.gov/). It is released under a three-clause [BSD license.](https://en.wikipedia.org/wiki/BSD_licenses)
 

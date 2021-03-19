@@ -2,6 +2,7 @@ title: Github访问速度很慢的原因，以及解决方法
 categories: 干货
 tags: [Github,hosts,CDN]
 date: 2020-06-27 20:52:00
+toc: true
 ---
 ##什么是CDN
 CDN，Content Distribute Network，可以直译成内容分发网络，CDN解决的是如何将数据快速可靠从源站传递到用户的问题。用户获取数据时，不需要直接从源站获取，通过CDN对于数据的分发，用户可以从一个较优的服务器获取数据，从而达到快速访问，并减少源站负载压力的目的。

@@ -2,6 +2,7 @@ title: GitHub+jsDelivr+PicGo搭建免费图床
 categories: 教程
 tags: [Github,jsdeliver,图床,CDN]
 date: 2020-06-30 19:12:00
+toc: true
 ---
 [notice]本篇文章主要讲解如何使用PicGo上传并使用jsDelivr加速，当然你也可以手动上传或者加速其他静态文件。
 [/notice]

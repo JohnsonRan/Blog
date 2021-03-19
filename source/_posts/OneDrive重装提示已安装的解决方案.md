@@ -2,6 +2,7 @@ title: OneDrive重装提示已安装的解决方案
 categories: 教程
 tags: [OneDrive,Windows]
 date: 2020-05-20 10:34:00
+toc: true
 ---
 ##本文来自微软客服:
 1. 打开命令提示符在管理员模式下 ︰ 用鼠标右键单击 Windows 任务栏中的图标并选择命令提示符 （管理员）。

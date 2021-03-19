@@ -2,6 +2,7 @@ title: 使用 wget 下载一个目录下的所有文件
 categories: 教程
 tags: [下载工具]
 date: 2020-04-21 14:28:00
+toc: true
 ---
 **今天想要下载清华源上的`Termux`源到本地，使用`wget`却只是下载了一个index.html**  
 **于是我就参考资料，写此博客以记录**  

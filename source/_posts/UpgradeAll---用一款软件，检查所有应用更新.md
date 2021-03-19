@@ -2,6 +2,7 @@ title: UpgradeAll - 用一款软件，检查所有应用更新
 categories: 实用工具
 tags: [UpgradeAll]
 date: 2020-10-19 21:25:00
+toc: true
 ---
 # 前言
 以前我总是想着：有没有什么应用可以一键检查手机里所有应用的更新，并且可以追踪自己添加的软件呢，直到我在[Explore](https://github.com/explore)Github上的项目时，发现了一款名叫**UpgradeAll**的应用,它不仅能检查手机应用更新，还能实现从云规则下载软件源，自行添加软件源等等功能，所以来给大家安利一下。

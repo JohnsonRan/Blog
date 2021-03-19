@@ -2,6 +2,7 @@ title: 离开网页时让网页标题以及logo变化
 categories: 干货
 tags: [Javascript]
 date: 2020-09-07 20:29:00
+toc: true
 ---
 ```javascript
 <script>

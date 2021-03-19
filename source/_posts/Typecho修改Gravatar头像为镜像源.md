@@ -2,6 +2,7 @@ title: Typecho修改Gravatar头像为镜像源
 categories: 干货
 tags: [Gravatar]
 date: 2021-02-28 20:17:00
+toc: true
 ---
 1. `/var/Typecho/common.php`第991行：
 ```php

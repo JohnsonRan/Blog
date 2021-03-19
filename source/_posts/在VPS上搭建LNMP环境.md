@@ -2,6 +2,7 @@ title: 在VPS上搭建LNMP环境
 categories: 教程
 tags: [LNMP,VPS]
 date: 2020-07-22 21:37:00
+toc: true
 ---
 本文将介绍如何使用第三方源在 Debian Buster 发行版安装最新版 LNMP
 ~~宝塔是什么辣鸡？~~
