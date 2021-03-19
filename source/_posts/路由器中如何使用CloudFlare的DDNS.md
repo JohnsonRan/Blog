@@ -10,7 +10,7 @@ toc: true
 
 当你需要使用你的域名指向一个动态 ip 时，就需要有一个支持动态 dns 的域名托管商。
 CloudFlare 是非常有名的域名托管商和 CDN 提供商，提供高质量的免费服务，拥有国内外大量用户。本文就将讲解如何使用 CloudFlare 实现 DDNS (动态域名解析)
-
+<!-- more -->
 开始操作
 ---
 `CloudFlare` 提供有非常强大的 `API` ，具体可以参看 [Cloudflare API documentation v4](https://api.cloudflare.com/#zone-properties)  

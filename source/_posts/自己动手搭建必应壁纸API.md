@@ -5,11 +5,11 @@ date: 2020-09-08 19:19:00
 toc: true
 ---
 [必应](https://cn.bing.com)（Bing）集成了多个独特功能，包括每日首页美图，通过将来自世界各地的高质量图片设置为首页背景，美轮美奂的必应美图备很多人当做壁纸使用，今天我们自己搭建**API**服务自动获取每天的必应壁纸美图，搭建好的api服务可以用来作为网页背景或者其他服务调用，非常方便！
-
-#本站Bing壁纸API
+<!-- more -->
+# 本站Bing壁纸API
 https://johnsonran.cn/API/bing
 
-#原理分析
+# 原理分析
 经过对必应首页的抓包，我们可以获得首页图的获取API。它的格式是这样的：
 **https://cn.bing.com/HPImageArchive.aspx?format=xml&idx=0&n=1**
 这里有几个GET参数，它们的作用分别是：
@@ -62,7 +62,7 @@ https://cn.bing.com/th?id=OHR.OttoSettembre_ZH-CN7378112626_1920x1080.jpg&rf=LaD
 
 知道了背景图的获取方式，接下来就是用PHP去动态抓取了。
 
-#搭建API
+# 搭建API
 你只需新建一个php文件，贴入如下代码：
 ```php
 <?php
@@ -77,6 +77,6 @@ if(preg_match('/<url>([^<]+)<\/url>/isU', $str, $matches)) { // 正则匹配抓�
 header("Location: {$imgurl}");    // 跳转至目标图像
 ```
 
-#使用方法
+# 使用方法
 直接将那个php文件的绝对地址当做图片放进网页中即可。你也可以直接调用本站的必应壁纸api服务使用
 地址: https://johnsonran.cn/API/bing

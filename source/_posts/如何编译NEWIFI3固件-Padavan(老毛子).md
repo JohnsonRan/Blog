@@ -12,7 +12,7 @@ toc: true
 git clone https://github.com/chongshengB/rt-n56u.git /opt/rt-n56u-n3
 cd /opt/rt-n56u-n3
 ```
-
+<!-- more -->
 * 安装依赖包:
 ```bash
 sudo apt update

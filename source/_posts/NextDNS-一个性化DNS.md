@@ -5,6 +5,7 @@ date: 2020-08-22 20:11:00
 toc: true
 ---
 在得知阿里DNS支持DOH之后，我试用了将近一周，发现他并不能让我满意，他和大多数公共DNS一样，被污染了，直接给我不返回解析，在DNS被污染的情况下,DOH又能起多大用呢，对于另一家红鱼DNS，虽然说是免费一个月，但一个月后不能白嫖，还是没去用，后来我在基安发现了它-NextDNS
+<!-- more -->
 打开官网：[nextdns.io](nextdns.io) ，注册登录，于是乎你就可以看到这样一个界面
 ![showup](https://pan.johnsonran.cn/AliDrive/Blog-IMG/NextDNS/showup.png)
 网站会自动给你下发DNS，你想要的DOH(DNS-over-HTTPS)，DOT(DNS-over-TLS)全都有！

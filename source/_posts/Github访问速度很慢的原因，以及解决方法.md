@@ -4,11 +4,12 @@ tags: [Github,hosts,CDN]
 date: 2020-06-27 20:52:00
 toc: true
 ---
-##什么是CDN
+## 什么是CDN
 CDN，Content Distribute Network，可以直译成内容分发网络，CDN解决的是如何将数据快速可靠从源站传递到用户的问题。用户获取数据时，不需要直接从源站获取，通过CDN对于数据的分发，用户可以从一个较优的服务器获取数据，从而达到快速访问，并减少源站负载压力的目的。
-##为什么访问速度慢，下载慢？
+<!-- more -->
+## 为什么访问速度慢，下载慢？
 Github的CDN被某墙屏了，由于网络代理商的原因，所以访问下载很慢。ping github.com 时，速度只有300多ms。
-##解决方法
+## 解决方法
 绕过dns解析，在本地直接绑定host，该方法也可加速其他因为CDN被屏蔽导致访问慢的网站。
 
 hosts文件所在目录:
@@ -47,7 +48,7 @@ C:\Windows\System32\drivers\etc
 199.232.68.133 avatars7.githubusercontent.com
 199.232.68.133 avatars8.githubusercontent.com
 ```
-##Windows下刷新DNS的方法：
+## Windows下刷新DNS的方法：
 ```bash
 打开cmd
 输入ipconfig /flushdns

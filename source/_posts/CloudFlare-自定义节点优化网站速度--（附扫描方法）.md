@@ -8,7 +8,7 @@ toc: true
 ---
 `CloudFlare` 官网虽然不提供 `CNAME`/`AAAA`/`A` 记录接入 `CloudFlare` 的 `CDN`，但是我们可以通过 `CloudFlare Partner` 免费使用 `CNAME`/`A` 记录接入 `CloudFlare` ，然后就可以解锁许多上网新知识。
 而我们正好利用 `CloudFlare` 使用 `A` 记录接入 `CDN` 的方式，自定义节点 `IP` ，例如 `1.1.1.1` 等，使用 `CloudFlare` 自定义节点 `IP` 的好处就是可以一定程度上缓解 `CloudFlare` 速度慢的问题，据说 `CloudFlare` 免费套餐节点比较少，且 “鱼龙混杂”，对中国大陆的线路不友好，本文就详细教大家 `CloudFlare` 如何自定义 `IP` 节点对三网线路进行优化，以及分享一些 `CloudFlare` 分别对中国三网线路友好一点的 `IP` 段，并教大家自己寻找最优的 `CloudFlare` 的节点 `IP` ！
-
+<!-- more -->
 通过`CloudFlare Partner` 接入 `CloudFlare`
 ---
 这里推荐 3 个大佬的:

@@ -4,5 +4,6 @@ tags: [Monster Hunter: World]
 date: 2020-10-19 20:04:00
 toc: true
 ---
-前天闲来无事打打下位救援，这最后一击帅到我了 @(huaji_djy) 
+前天闲来无事打打下位救援，这最后一击帅到我了
+<!-- more -->
 ![太刀侠](https://pan.johnsonran.cn/AliDrive/Blog-IMG/MHW/%E5%A4%AA%E5%88%80%E4%BE%A0.png)

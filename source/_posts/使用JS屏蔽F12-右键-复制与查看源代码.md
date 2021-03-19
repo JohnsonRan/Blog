@@ -5,6 +5,7 @@ date: 2020-09-07 16:31:00
 toc: true
 ---
 - 禁止F12
+<!-- more -->
 ```javascript
 //禁止F12
 document.onkeydown = function(){

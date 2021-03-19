@@ -6,9 +6,9 @@ toc: true
 ---
 具体原理可以查看[原作者的文章](https://blog.christophetd.fr/bypassing-cloudflare-using-internet-wide-scan-data/)
 CloudFlair 开源地址：[Github](https://github.com/christophetd/CloudFlair)
-这个工具是用pytohn编写的，兼容`python2.7`和`3.5`
-
-#配置
+这个工具是用pytohn编写的，兼容`python2.7`和`3.9`
+<!-- more -->
+# 配置
 1. 在 https://censys.io/register 注册一个账号 **(FREE)**
 2. 访问https://censys.io/account/api 页面，获取账号的`API ID`和`API secret`，并设置到环境变量中
 ```bash
@@ -31,7 +31,7 @@ $ pip install -r requirements.txt
 $ python cloudflair.py example.com
 ```
 
-#用法
+# 用法
 ```bash
 $ python cloudflair.py --help
 usage: cloudflair.py [-h] [-o OUTPUT_FILE] [--censys-api-id CENSYS_API_ID] [--censys-api-secret CENSYS_API_SECRET]

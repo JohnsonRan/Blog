@@ -7,7 +7,7 @@ toc: true
 前言
 ===
 GitHub 作为世界上最大的代码托管平台之一，国内当然有不少开发者和软件用户会使用 GitHub。但是由于 GitHub 主机的地理位置，国内访问 GitHub 的速度普遍较慢，更别说下载速度，惨不忍睹。对于没有能力魔法上网的用户确实是不太友好，有少部分地区甚至没有办法正常访问 GitHub。
-
+<!-- more -->
 最近发现了一个开源项目，能够通过 Cloudflare Workers 加速 GitHub 文件的下载，支持直接下载仓库和 Release，也可以单独下载 release 或者仓库内其中一个文件。自己尝试搭建了一下，没有能力的朋友可以通过下面的链接访问并下载 GitHub 上的文件。但是不要滥用，如果需要的话还是推荐自己搭建一下。  
 https://github.johnsonran.workers.dev/  
 ![gh-preview](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CF-GitHub/gh-preview.png)  

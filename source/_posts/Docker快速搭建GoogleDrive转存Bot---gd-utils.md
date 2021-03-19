@@ -6,8 +6,8 @@ toc: true
 ---
 >看到有人说搭建不成功，我觉得非常简单，
 安装版编译时我两台1G的小鸡的卡着不动，还是大鸡编译好小鸡用好,如果只能搭建bot推荐使用docker版  
-
-##准备：
+<!-- more -->
+## 准备：
 - SA配置文件(Service Accounts)
 参考:http://blog.jialezi.net/?post=153
 - **TelegramBot**的`API`,使用**BotFather**创建时可见
@@ -17,8 +17,8 @@ toc: true
 (我自用的小修改版 https://hub.docker.com/r/jialezi/gd-utils)
 原版：https://github.com/gdtool/gd-utils-docker.git
 
-##开始搭建
-###示例：
+## 开始搭建
+### 示例：
 域名: abc.com (提前解析abc.com到你的服务器`IP`,用于申请`SSL`)
 **GoogleDrive**文件夹的`ID`为: 1hhDZw2SKjNeuwWroHSenoY-TXiFZyDoM
 **TelegramBot**的`API`为: 13xxxx2380:AAGDPL_2-LPIA0iQ6RxxxxM9bBOFjtErFGE
@@ -50,7 +50,7 @@ curl -F "url=[YOUR_WEBSITE]/api/gdurl/tgbot" 'https://api.telegram.org/bot[YOUR_
 >curl -F "url=https://abc.com/api/gdurl/tgbot" 'https://api.telegram.org/bot1394xxx380:AAGDPL_2-LPIA0iQ6xxxxM9bBOFjtErFGE/setWebhook'
 >返回true ok
 
-##访问
+## 访问
 1.https://abc.com   //**gd-utils**地址
 2. https://abc.com/shell    //**shellinabox**地址，使用**root**需要先使用**gd**用登录，再切换**root**
 账号**gd**，密码在上面自行设置，使用`su root`切换到**root**

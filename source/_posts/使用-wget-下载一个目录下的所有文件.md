@@ -6,6 +6,7 @@ toc: true
 ---
 **今天想要下载清华源上的`Termux`源到本地，使用`wget`却只是下载了一个index.html**  
 **于是我就参考资料，写此博客以记录**  
+<!-- more -->
 方法如下：
 ```
 wget -r -np -nH -R index.html* -e robots=off https://mirrors.tuna.tsinghua.edu.cn/termux/
