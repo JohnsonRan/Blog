@@ -7,7 +7,7 @@ logo: https://johnsonran.cn/favicon.ico #/img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: https://johnsonran.cn/favicon.ico #/img/favicon.svg
+    favicon: https://pan.johnsonran.cn/AliDrive/Blog-IMG/favicon.ico #/img/favicon.svg
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
