@@ -73,15 +73,14 @@ head:
 navbar:
     # Naviagtion menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        Friend: /friend
-        Message: /message
-        Self-talking: /self-talking
-        Music: /music
-        About: /about
+        首页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        友链: /friend
+        碎碎念: /self-talking
+        留言: /message
+        关于: /about
     # Links to be shown on the right of the navigation bar
     links:
         Join Gitter:
