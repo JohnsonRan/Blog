@@ -77,11 +77,11 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
         Friend: /friend
         Message: /message
         Self-talking: /self-talking
         Music: /music
+        About: /about
     # Links to be shown on the right of the navigation bar
     links:
         Join Gitter:
