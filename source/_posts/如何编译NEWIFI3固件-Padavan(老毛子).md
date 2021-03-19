@@ -40,9 +40,9 @@ nano build_firmware_modify
 ```
 
 执行后会出现如下界面:  
-![PlugSetup](https://img.johnsonran.cn/CompliePadavan/PlugSetup.png)  
+![PlugSetup](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CompliePadavan/PlugSetup.png)  
 如果你想使用Adbyby plus++可将下图的`n`改为`y`  
-![eg](https://img.johnsonran.cn/CompliePadavan/eg.png)  
+![eg](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CompliePadavan/eg.png)  
 其他配置同上!  
 
 * 修改机型文件:  
@@ -75,13 +75,13 @@ screen -r padavan
 ```
 
 编译完成后,执行`cd images`看到你所编译的固件
-![compshow](https://img.johnsonran.cn/CompliePadavan/compshow.png)  
+![compshow](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CompliePadavan/compshow.png)  
 如想下载该固件，可以使用`Python`自带的软件包`SimpleHTTPServer`搭建文件浏览器来下载:
 ```bash
 python -m SimpleHTTPServer
 ```
 
-![httpserver](https://img.johnsonran.cn/CompliePadavan/httpserver.png)
+![httpserver](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CompliePadavan/httpserver.png)
 
 ---
 教程就到此结束啦!  

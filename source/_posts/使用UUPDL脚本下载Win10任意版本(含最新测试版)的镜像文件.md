@@ -24,12 +24,12 @@ date: 2020-04-29 22:20:00
 ---
 比如我们现在需要下载集成2020年4月累积更新的`Windows10 Version 1909`也被称为`19H2`版的最新镜像文件。
 我们需要在搜索框里输入`19H2`或者是`1909`之类的版本关键词，然后在返回的列表里查找我们需要的微架构体系。
-![版本列表](https://img.johnsonran.cn/UUPDL/version-show.png)  
+![版本列表](https://pan.johnsonran.cn/AliDrive/Blog-IMG/UUPDL/version-show.png)  
 接下来选择语言和版本集成，语言默认中文即可不需要修改，版本如无特殊需要的话也默认配置的消费者版即可。
 [notice]注意：如果你只需要专业版那可以把家庭版和家庭中文版去掉，这样可以缩短镜像文件下载和创建的整体时间等。[/notice]
-![准备下载](https://img.johnsonran.cn/UUPDL/before-dl.png) 
+![准备下载](https://pan.johnsonran.cn/AliDrive/Blog-IMG/UUPDL/before-dl.png) 
 当工具包下载后请将其完整解压到桌面然后运行里面的脚本，具体脚本对应的操作系统说明可以看描述。
-![开始下载](https://img.johnsonran.cn/UUPDL/sel.png)  
+![开始下载](https://pan.johnsonran.cn/AliDrive/Blog-IMG/UUPDL/sel.png)  
 >- Windows: aria2_download_windows.cmd
 >- Linux: aria2_download_linux.sh
 >- macOS: aria2_download_macos.sh

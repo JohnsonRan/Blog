@@ -17,4 +17,4 @@ wget -r -np -nH -R index.html* -e robots=off https://mirrors.tuna.tsinghua.edu.c
 -R index.html : 不下载所有匹配到包含 `index.html` 的文件  
 -e robots=off : 绕过网站的robots.txt下载文件
 - 效果如下：  
-![wget](https://img.johnsonran.cn/DL-Site/wget.png)
+![wget](https://pan.johnsonran.cn/AliDrive/Blog-IMG/DL-Site/wget.png)

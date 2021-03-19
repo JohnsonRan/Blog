@@ -23,10 +23,10 @@ CloudFlare 是非常有名的域名托管商和 CDN 提供商，提供高质量�
 就是你注册 CloudFlare 时使用的邮箱
 2. Zone_ID  
 这个位于你的域名设置右边的 `API` 分类下的 `Zone ID` 可直接复制下来以备使用  
-![cfzoneid](https://img.johnsonran.cn/CF-DDNS/1.png)
+![cfzoneid](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CF-DDNS/1.png)
 3. API_Key  
 找到 `Zone_ID` 之后，点击下面的`获取您的API令牌` 进入页面后，点击API密钥栏 `Global API Key` 后面的 `查看` 即可获取
-![cfapikey](https://img.johnsonran.cn/CF-DDNS/2.png)
+![cfapikey](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CF-DDNS/2.png)
 
 脚本
 ---

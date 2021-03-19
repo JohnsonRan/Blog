@@ -58,13 +58,13 @@ FLARUM_TITLE=xxx
 请访问[面板信息](https://bt.cn/download/linux.html)以获取安装信息。  
 据博主发文前，最新版为 v0.1.0-beta.12 [点击前往下载](https://gitee.com/FlarumChina/FlarumChina/attach_files/350061/download)
 #### 安装环境  
-![envshow](https://img.johnsonran.cn/Flarum/1.png)  
+![envshow](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Flarum/1.png)  
 此处 Nginx，PHP，Mysql 是必须的，切记。  
 #### 安装 PHP 插件
-![phpplug](https://img.johnsonran.cn/Flarum/2.png)
-![phpplugshow](https://img.johnsonran.cn/Flarum/3.png)
+![phpplug](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Flarum/2.png)
+![phpplugshow](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Flarum/3.png)
 #### 网站配置伪静态
-![fakestatic](https://img.johnsonran.cn/Flarum/4.png)
+![fakestatic](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Flarum/4.png)
 可以填入这个:
 ```javascript
 location / {

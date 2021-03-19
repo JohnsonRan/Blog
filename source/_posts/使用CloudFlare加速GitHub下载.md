@@ -9,7 +9,7 @@ GitHub 作为世界上最大的代码托管平台之一，国内当然有不少�
 
 最近发现了一个开源项目，能够通过 Cloudflare Workers 加速 GitHub 文件的下载，支持直接下载仓库和 Release，也可以单独下载 release 或者仓库内其中一个文件。自己尝试搭建了一下，没有能力的朋友可以通过下面的链接访问并下载 GitHub 上的文件。但是不要滥用，如果需要的话还是推荐自己搭建一下。  
 https://github.johnsonran.workers.dev/  
-![gh-preview](https://img.johnsonran.cn/CF-GitHub/gh-preview.png)  
+![gh-preview](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CF-GitHub/gh-preview.png)  
 尽管 Cloudflare 总体上在国内的速度也不太可观，但在某些地区的速度还是比较快的。个人测试了一下，如果使用魔法上网的话，用这个转发也会比直接在 GitHub 下载稍微快一些（日本的节点）。  
 ###原项目
 这个`Worker`的`JavaScript`脚本是[hunsh](https://hunsh.net/)大佬写的，可以在`GitHub`上访问[hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)并点击`Star`支持一下原作者୧(๑•̀⌄•́๑)૭  
@@ -23,7 +23,7 @@ https://github.johnsonran.workers.dev/
 ---
 [notice]如果你已经拥有 Cloudflare Workers，那么创建一个新的 Worker 就可以跳过此步[/notice]  
 访问 [CloudFlare](https://cloudflare.com/login)并登录你的账号，如果没有则点击`Sign up`进行注册。随后进入到 Dashboard 页面，点击右侧边栏的 Workers 选项。  
-![cfwr](https://img.johnsonran.cn/CF-GitHub/cfwr.png)  
+![cfwr](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CF-GitHub/cfwr.png)  
 点击后会让你自定义一个域名,不过是`workers.dev`的子域,一会你创建 Workers 的时候,一个Worker占用一个四级域名。之后会让你选择一个方案（Plan）,免费的对于小型的网站来说足够了,每天允许一万次请求，每分钟限制 1000 次；如果是花费五刀使用所谓的`Unlimited`方案，每月允许`1000万`次请求,超出部分按$0.5/百万次请求的方式计费。
 
 之后，点击`Create a Worker`按钮来创建一个新的 Worker,然后继续下一步。
@@ -339,7 +339,7 @@ async function proxy(urlObj, reqInit, rawLen) {
 ---
 复制好之后，把他粘贴到Worker编辑页面左侧的`Script`栏里面，然后点击`Save and Deploy`。  
 你可以在这个页面的左上角看到 worker 的域名（四级域名），你可以修改第四级的域名前缀，然后通过这个域名访问你的 worker，打开后应该是这个页面。  
-![gh-preview](https://img.johnsonran.cn/CF-GitHub/gh-preview.png)  
+![gh-preview](https://pan.johnsonran.cn/AliDrive/Blog-IMG/CF-GitHub/gh-preview.png)  
 尝试使用
 ---
 原作者给出的合法链接实例是这样的：

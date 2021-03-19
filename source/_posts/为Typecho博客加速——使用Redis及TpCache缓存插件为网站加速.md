@@ -28,16 +28,16 @@ TpCache是由老高开发的一款Typecho缓存插件，支持Memcache，Redis�
 #安装
 ##Redis
 因为我用的时删库塔，可一键便捷安装Redis。如图：
-![InstallRedis](https://img.johnsonran.cn/TpRedis/InstallRedis.png)
+![InstallRedis](https://pan.johnsonran.cn/AliDrive/Blog-IMG/TpRedis/InstallRedis.png)
 [warn-block]千万不要从宝塔开启6379外网访问，因为会把端口开放给外网，而TpCache是不支持密码连接Redis的。这种操作会使任何人都能访问并管理Redis，很危险。[/warn-block]
 ##TpCache
 到项目地址下载插件包并解压，修改文件夹名为TpCache，上传到Typecho插件目录（`/usr/plugins`),接着到后台启用插件。
-![TpCacheShow](https://img.johnsonran.cn/TpRedis/TpCacheShow.png)
+![TpCacheShow](https://pan.johnsonran.cn/AliDrive/Blog-IMG/TpRedis/TpCacheShow.png)
 如果博客使用`https`则开启`SSL`，缓存驱动选择`Redis`，端口默认为`6379`（可到宝塔面板修改），保存设置即可启用Typecho的Redis。
 
 #管理
 在宝塔面板的软件商店中，安装Redis数据管理工具，即可对Redis进行管理查看，如图：
-![TpCacheShow](https://img.johnsonran.cn/TpRedis/RedisManage.png)
+![TpCacheShow](https://pan.johnsonran.cn/AliDrive/Blog-IMG/TpRedis/RedisManage.png)
 如需清除所有Redis缓存，在插件中的最后一项选择清除所有数据，保存设置即可。
 
 #后记

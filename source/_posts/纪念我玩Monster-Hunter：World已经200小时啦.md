@@ -4,6 +4,6 @@ tags: [Monster Hunter: World]
 date: 2020-10-19 20:00:53
 ---
 废话不多说，冲了！
-![200](https://img.johnsonran.cn/MHW/200.jpeg)
+![200](https://pan.johnsonran.cn/AliDrive/Blog-IMG/MHW/200.jpeg)
 
 黑龙黑龙我爱你

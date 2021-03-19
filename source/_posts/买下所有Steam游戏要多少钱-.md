@@ -10,5 +10,5 @@ date: 2020-09-14 21:39:23
 [Click Here](https://steam.seewang.me/)
 
 当然，这除了游戏外，DLC和任何你在Steam上能买到的东西也算在内，比如原声带和设定集的数字版。
-![show](https://img.johnsonran.cn/Steam-price/show.png)
+![show](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Steam-price/show.png)
 截至目前，Steam 所有游戏打折后的价格为`$521,909.63`，而原价则为 `$537,192.37`。

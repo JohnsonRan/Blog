@@ -14,7 +14,7 @@ Linux版本下载地址：http://code.google.com/p/iperf/downloads/list
 下载IPerf3
 ---
 大家可以从[IPerf](https://iperf.fr/)官网下载Windows版IPerf，而安卓版则可以从[Google Play](https://play.google.com/store/apps/details?id=com.nextdoordeveloper.miperf.miperf)下载  
-或者从我给各位大佬提供的站点下载：[Windows版](https://img.johnsonran.cn/IPerf3/IPerf3%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.zip) [安卓版](https://img.johnsonran.cn/IPerf3/iperf.apk)
+或者从我给各位大佬提供的站点下载：[Windows版](https://pan.johnsonran.cn/AliDrive/Blog-IMG/IPerf3/IPerf3%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7.zip) [安卓版](https://pan.johnsonran.cn/AliDrive/Blog-IMG/IPerf3/iperf.apk)
 
 如何使用
 ---
@@ -24,14 +24,14 @@ Linux版本下载地址：http://code.google.com/p/iperf/downloads/list
 关于PC的运行教程就到这里，下面来介绍安卓端的运行
 #### Android端
 同PC端差不多，如果你想让你的Android手机作为客户端，安装您下载的`iperf.apk`，并打开，输入`-c (你的服务端IP地址) -i (每次报告的间隔)) `点击`Stopped`运行即可!  
-像这样:  ![c](https://img.johnsonran.cn/IPerf3/c.png)  
+像这样:  ![c](https://pan.johnsonran.cn/AliDrive/Blog-IMG/IPerf3/c.png)  
 
 我这里PC端IP为`10.0.0.120`，报告间隔为`1s`
 
 ---
 
 如果想成为服务端，则输入`-s -i 1`点击`Stopped`运行即可!  
-像这样:  ![c](https://img.johnsonran.cn/IPerf3/s.png)  
+像这样:  ![c](https://pan.johnsonran.cn/AliDrive/Blog-IMG/IPerf3/s.png)  
 意思为，将手机设为`服务端`报告间隔为`1s`
 
 可选参数

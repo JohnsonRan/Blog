@@ -41,4 +41,4 @@ HSTS preload list是Chrome浏览器中的HSTS预载入列表，在该列表中�
 
 #测试HSTS是否生效
 直接打开Chrome查看网络，就可以看到头部已经包含了HSTS信息了。
-![hsts-enabled](https://img.johnsonran.cn/HSTS/HSTS-ENABLED.png)
+![hsts-enabled](https://pan.johnsonran.cn/AliDrive/Blog-IMG/HSTS/HSTS-ENABLED.png)

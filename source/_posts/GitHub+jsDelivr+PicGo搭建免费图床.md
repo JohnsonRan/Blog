@@ -10,23 +10,23 @@ jsDelivr是一个比较好的CDN平台，官方号称jsDelivr – Open Source CD
 - 目前GITHUB仓库容量是没有上限的！不过官方推荐在1G以内！
 - 仓库单个文件50M会收到警告，大于100M会被拒绝！
 - jsDelivr仅能针对50M以下的文件CDN加速！
-放一个测试图：https://img.johnsonran.cn/qndxx/vconsole.jpg
+放一个测试图：https://pan.johnsonran.cn/AliDrive/Blog-IMG/qndxx/vconsole.jpg
 来源于：[跳过微信青年大学习的方法](https://521331.xyz/archives/14.html)
 
 ##创建仓库
 当然，首先你得有个`Github`的帐号。
 新建一个`仓库`，填写`仓库名`，将权限设置成`public`，根据需求选择是否为仓库初始化一个`README.md`描述文件。
-![创建新仓库](https://img.johnsonran.cn/Pic-Bed/new.png)  
+![创建新仓库](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Pic-Bed/new.png)  
 
 ##生成token
 点击用户头像 -> 选择`Settings`
-![Settings](https://img.johnsonran.cn/Pic-Bed/Settings.png)  
+![Settings](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Pic-Bed/Settings.png)  
 点击`Developer settings`
-![Developer settings](https://img.johnsonran.cn/Pic-Bed/Developer.png)  
+![Developer settings](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Pic-Bed/Developer.png)  
 点击`Personal access tokens`并点击`Generate new token`新建一个`Token`。
-![Personal access tokens](https://img.johnsonran.cn/Pic-Bed/tokens.png)  
+![Personal access tokens](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Pic-Bed/tokens.png)  
 填写`Token`描述，勾选`repo`，然后点击`Generate token`生成一个`Token`。
-![Generate token](https://img.johnsonran.cn/Pic-Bed/tokencreate.png)
+![Generate token](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Pic-Bed/tokencreate.png)
 
 ##获取Token密钥
 生成之后会显示Token的密钥，复制保存好。
@@ -43,11 +43,11 @@ jsDelivr是一个比较好的CDN平台，官方号称jsDelivr – Open Source CD
 - 设定Token：粘贴之前生成的`Token`
 - 指定存储路径：填写想要储存的路径，如`Pic-Bed/`，这样就会在仓库下创建一个名为`Pic-Bed`的文件夹，图片将会储存在此文件夹中。
 - 设定自定义域名：它的的作用是，在图片上传后，PicGo会按照`自定义域名+上传的图片名`的方式生成访问链接，放到粘贴板上，因为我们要使用`jsDelivr`加速访问，所以可以设置为`https://cdn.jsdelivr.net/gh/用户名/图床仓库名`
-![PicGo](https://img.johnsonran.cn/Pic-Bed/picgo.png)
+![PicGo](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Pic-Bed/picgo.png)
 
 ##上传图片
 配置完成之后，只需要将图片拖动上传即可，然后在相册区可以复制链接了。
-![Pic-Upload](https://img.johnsonran.cn/Pic-Bed/pic-upload.png)
+![Pic-Upload](https://pan.johnsonran.cn/AliDrive/Blog-IMG/Pic-Bed/pic-upload.png)
 
 ##手动上传
 直接使用`Git`或者网页上传`图片/文件夹`即可
