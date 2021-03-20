@@ -1,5 +1,5 @@
 ---
-thumbnail: https://pan.johnsonran.cn/AliDrive/Blog-IMG/Main/%E3%82%8C%E3%82%93%E3%81%92.png
+thumbnail: https://api.ghser.com/random/api.php
 date: 2018-11-11 08:24:49
 comments: true
 ---

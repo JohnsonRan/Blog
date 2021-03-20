@@ -1,5 +1,5 @@
 ---
-thumbnail: https://pan.johnsonran.cn/AliDrive/Blog-IMG/Main/%E3%82%8C%E3%82%93%E3%81%92.png
+thumbnail: https://api.ghser.com/random/api.php
 date: 2019-09-09 18:52:09
 ---
 <div class="friend-title-item"><br>申请友链须知<br><br><hr></div>
